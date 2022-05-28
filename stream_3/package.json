@@ -1,0 +1,14 @@
+{
+  "name": "stream_3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.6.0",
+    "@parcel/transformer-sass": "2.6.0",
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

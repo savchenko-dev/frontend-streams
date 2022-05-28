@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title PomodoroTimer
+        link(rel="stylesheet", href="./styles/style.sass")
+    body
+        h1.p-5.text-center
+            span.minutes 00
+            span :
+            span.seconds 00
+
+        .p-5.text-center
+            button.btn.btn-outline-primary.rounded-pill.js-start Start
+            button.btn.btn-outline-primary.rounded-pill.js-stop.hidden Stop
+            button.btn.btn-outline-primary.rounded-pill.js-pause.hidden Pause
+            button.btn.btn-outline-primary.rounded-pill.js-resume.hidden Resume
+
+        script(src="./../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js")
+        script(src="./js/indes.js", type="module")  
