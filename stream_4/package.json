@@ -1,0 +1,12 @@
+{
+  "name": "stream_4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}
